@@ -10,11 +10,28 @@ body {
 }
 
 h1 {
+	width: 175px;
+	border: 1px;
+	border-style: solid;
+	border-color: #4aaaa5;
 	background-color: #4aaaa5;
-	padding: ;
+	height: 43px;
+	margin-bottom: 40px;
+	line-height:30px;
+	padding-left: 20px;
+	padding-top: ;
 }
 
 h2 {
+	margin-left: 10%;
+	margin-right: 10%;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 1px;
+	border-color: grey;
+	border-style: solid;
+	color: #4aaaa5;
 
 }
 
@@ -32,11 +49,12 @@ p {
 
 header {
 	width: 100%;
-	background-color: #cccccc;
-	float: left;
-	border-bottom: 2px;
-	border-color: teal;
-	border-width: 100%;
+	background-color: white;
+	float:left ;
+	height: 65px;
+	border: 2px;
+	border-style: solid;
+	border-color: grey;
 
 }
 
@@ -45,8 +63,8 @@ header {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	width: 450px;
   background-color: #ffffff;
-	font-family: 'Georgia', Times, Times New Roman, serif;
 	height: 350px;
+
  }
 
  ul {
@@ -56,6 +74,7 @@ header {
 	}
  li {
 	 display: inline;
+	 list-style-type: none;
 	 border-left: 1px;
 	 border-color: black;
  }
@@ -64,27 +83,57 @@ header {
 	 float: right;
 	 margin-right: 175px;
 	 margin-top: 10px;
-	 margin-left: 95px;
+	 margin-left: 99px;
 	 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	 font-size: 12px;
 	 font-weight: bold;
 	 text-decoration: none;
 
 }
 .profile_pic {
+	border: 3px;
+	border-style: solid;
+	border-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	margin: 10px;
   margin-left: 5px;
 	margin-right: 5px;
 	padding-right: 5px;
 }
+
+
  img {
 	 float:left ;
 	 margin-left:5px;
+	 border: 2px;
+	 border-style: solid;
+	 border-color: grey;
  }
+
+ form {
+	width: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	 font-size: 16px;
+	padding: 20px;
+ }
+
+input {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+}
+
 
  #name {
 	 float: left;
 	 margin-left: 10%;
-
+	 padding-left: 10px;
+	 color: white;
  }
 
 
@@ -102,6 +151,9 @@ header {
   padding-top: 10px;
   padding-bottom: 2.5px;
   float:left;
+	border: 2px;
+	border-style: solid;
+	border-color: grey;
 	}
 
 	#fluff {
@@ -110,7 +162,7 @@ header {
 		margin-right: 20px;
 		margin-top: 20px;
 		margin-bottom: 20px;
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	#contact {
@@ -119,23 +171,27 @@ header {
 	  background-color: #ffffff;
 		font-family: 'Georgia', Times, Times New Roman, serif;
 	  color: black;
-	  height: 70%;
+	  height: 50%;
 	  margin-left: 10%;
 	  margin-right: 5px;
 	  margin-top: 10px;
 	  margin-bottom: 10px;
 	  padding-top: 10px;
 	  padding-bottom: 2.5px;
+		padding-left: 10px;
+		border: 2px;
+		border-style: solid;
+		border-color: grey;
 	}
 	#portfolio {
 		float: left;
-		width: 450px;
+		width: 400px;
 		background-color: #ffffff;
 		font-family: 'Georgia', Times, Times New Roman, serif;
 		color: black;
-		height: 70%;
+		height: 65%;
 		margin-left: 10%;
-		margin-right: 5px;
+		margin-right: 20px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		padding-top: 10px;
@@ -144,16 +200,24 @@ header {
 
 	.hangman {
 		float: left;
-		height: ;
-		margin: 10px;
+
 	}
 	.rpg_game {
 		float: right;
 		height: ;
 	}
 	.trivia_game {
+		clear: both;
 		float: left;
 	}
+	.riw {
+		float: right;
+	}
+	.rps {
+		clear: both;
+		float: left;
+	}
+
 
 	#connect_with_me {
 	width: 300px;
@@ -170,7 +234,11 @@ header {
 	padding-top: 2.5px;
 	padding-bottom: 2.5px;
 	float:left;
-	}
+	border: 2px;
+	border-style: solid;
+	border-color: grey;
+}
+
 	footer {
 		width: 100%;
 		background-color: #cccccc;
@@ -178,4 +246,12 @@ header {
 		height: 75px;
 		text-align: center;
 		margin-top: 75px;
+		line-height: 5px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		border-top:5px;
+		border-bottom: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		border-color: teal;
+		border-style: solid;
 			}
